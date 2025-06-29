@@ -3,6 +3,7 @@
 **Aim of the Experiment**
 
 This experiment investigates cognitive interference and mood in a simple Stroop-like task. Participants view emotional faces (happy or angry) overlaid with emotion words and respond based on the facial expression, ignoring the word. After the task, they rate their current mood (happiness and anger) on a 1–5 slider. 
+
 **The goals are:**
 
 Demonstrate the classic congruency effect by comparing reaction times (RTs) on congruent vs. incongruent trials.
@@ -15,6 +16,7 @@ Capture participant mood ratings and explore how performance correlates with hap
 
 
 **Instructions to Run the Code**
+
 Clone or copy this repository containing Skylarfinal.py (your PsychoPy script) and emo_conditions.xlsx (the conditions file).
 
 
@@ -113,7 +115,8 @@ Mood vs. Age Trends (jitter + lm line for both ratings)
 Happy ↔ Accuracy Scatter (with regression line)
 
 
-Statistical Summaries & Tests
+**Statistical Summaries & Tests**
+
 Descriptive RT Stats: Mean and SD of RT by congruence computed via dplyr.
 
 
