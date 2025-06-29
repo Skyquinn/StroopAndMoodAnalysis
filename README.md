@@ -1,8 +1,10 @@
-PsychoPy Emotion & Mood Experiment
+**PsychoPy Emotion & Mood Experiment**
 
-Aim of the Experiment
+**Aim of the Experiment**
 
-This experiment investigates cognitive interference and mood in a simple Stroop-like task. Participants view emotional faces (happy or angry) overlaid with emotion words and respond based on the facial expression, ignoring the word. After the task, they rate their current mood (happiness and anger) on a 1–5 slider. The goals are:
+This experiment investigates cognitive interference and mood in a simple Stroop-like task. Participants view emotional faces (happy or angry) overlaid with emotion words and respond based on the facial expression, ignoring the word. After the task, they rate their current mood (happiness and anger) on a 1–5 slider. 
+**The goals are:**
+
 Demonstrate the classic congruency effect by comparing reaction times (RTs) on congruent vs. incongruent trials.
 
 
@@ -12,7 +14,7 @@ Measure overall accuracy and examine its relationship with self-reported mood.
 Capture participant mood ratings and explore how performance correlates with happiness and anger.
 
 
-Instructions to Run the Code
+**Instructions to Run the Code**
 Clone or copy this repository containing Skylarfinal.py (your PsychoPy script) and emo_conditions.xlsx (the conditions file).
 
 
@@ -44,7 +46,8 @@ all_summary.csv: one row per participant (participant nr, age, happy_rating, ang
 all_trials.csv: trial-by-trial data for all participants, with columns for stimulus, RT, response, accuracy, and participant nr.
 
 
-Dependencies
+**Dependencies**
+
 Python ≥ 3.7
 
 
@@ -57,9 +60,12 @@ pandas (for data handling)
 openpyxl (to read .xlsx conditions file)
 
 
-Colab-R Data Analysis Summary
-We performed exploratory and inferential analyses in Google Colab using R (tidyverse). Data from 18 participants (ages 21–25) were examined across the Stroop-like task and mood sliders.
-Key Findings
+**Colab-R Data Analysis Summary**
+
+I performed exploratory and inferential analyses in Google Colab using R (tidyverse). Data from 18 participants (ages 21–25) were examined across the Stroop-like task and mood sliders.
+
+**Key Findings**
+
 Interference Effect: Mean RT was faster on congruent trials (M = 0.53 s, SD = 0.25) than on incongruent trials (M = 0.58 s, SD = 0.28), confirming a clear congruency (interference) effect.
 
 
@@ -75,7 +81,8 @@ Mood ↔ Age: A slight positive trend for happiness with age and a small negativ
 Mood ↔ Performance: Happy ratings correlated moderately with accuracy (r ≈ 0.42, p ≈ 0.056); the “High-Happy” group showed marginally faster RTs on both congruent and incongruent trials.
 
 
-Plots Created
+**Plots Created**
+
 Age Histogram (Age)
 
 
